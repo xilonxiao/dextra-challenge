@@ -1,5 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button } from 'react-native';
+import Utils from '../utils/utils'
 
 class MenuItem extends React.PureComponent{
   render() {
@@ -17,7 +18,7 @@ class MenuItem extends React.PureComponent{
         <View style={styles.ingredients}>
           {ingredients}
         </View>
-        <Text>R$ {price/100}</Text>
+        <Text>{Utils.toCurrency(price/100)}</Text>
         <Button style={styles.button}
           onPress={() => {
             this.props.addItem({
@@ -37,11 +38,15 @@ const styles = StyleSheet.create({
   container: {
     margin: 4,
     padding: 4,
-    backgroundColor: 'yellow',
     justifyContent: 'center',
+    borderRadius: 10,
+    borderWidth: 1,
+    borderColor: 'black'
   },
   title: {
     flex: 1,
+    fontSize: 16,
+    fontWeight: 'bold',
   },
   ingredients: {
     flex: 4,
