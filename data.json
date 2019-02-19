@@ -1,0 +1,115 @@
+{
+  "ingredients":[
+    {
+      "id": "0",
+      "name": "Alface",
+      "price": 40
+    },
+    {
+      "id": "1",
+      "name": "Bacon",
+      "price": 200
+    },
+    {
+      "id": "2",
+      "name": "Hambúrger de carne",
+      "price": 300
+    },
+    {
+      "id": "3",
+      "name": "Ovo",
+      "price": 80
+    },
+    {
+      "id": "4",
+      "name": "Queijo",
+      "price": 150
+    }
+  ],
+  "menu":[
+    {
+      "id": "0",
+      "name": "X-Bacon",
+      "ingredients":[
+        {
+          "id": 1,
+          "name": "Bacon",
+          "price": 200
+        },
+        {
+          "id": 2,
+          "name": "Hambúrger de carne",
+          "price": 300
+        },
+        {
+          "id": 4,
+          "name": "Queijo",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "name": "X-Burger",
+      "ingredients":[
+        {
+          "id": 2,
+          "name": "Hambúrger de carne",
+          "price": 300
+        },
+        {
+          "id": 4,
+          "name": "Queijo",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "X-Egg",
+      "ingredients":[
+        {
+          "id": 2,
+          "name": "Hambúrger de carne",
+          "price": 300
+        },
+        {
+          "id": 3,
+          "name": "Ovo",
+          "price": 80
+        },
+        {
+          "id": 4,
+          "name": "Queijo",
+          "price": 150
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "X-Egg-Bacon",
+      "ingredients":[
+        {
+          "id": 1,
+          "name": "Bacon",
+          "price": 200
+        },
+        {
+          "id": 2,
+          "name": "Hambúrger de carne",
+          "price": 300
+        },
+        {
+          "id": 3,
+          "name": "Ovo",
+          "price": 80
+        },
+        {
+          "id": 4,
+          "name": "Queijo",
+          "price": 150
+        }
+      ]
+    }
+  ]
+}
